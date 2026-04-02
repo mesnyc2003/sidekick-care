@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Hearth — Calm tech help for older adults</title>
+  <link rel="stylesheet" href="styles.css?v=hybrid2" />
+</head>
+<body>
+  <div class="room">
+    <div class="sun"></div>
+    <div class="leaf left"></div>
+    <div class="leaf right"></div>
+
+    <div class="layout">
+      <aside class="ops-panel">
+        <section class="brand-card">
+          <div class="logo">H</div>
+          <div>
+            <p class="eyebrow">Contest concept</p>
+            <h1>Hearth</h1>
+            <p class="muted">A warm, tablet-first support experience for older adults, caregivers, and front-desk helpers.</p>
+          </div>
+        </section>
+
+        <section class="position-card">
+          <p class="eyebrow">Product story</p>
+          <h2>Guided when it should be. Flexible when it needs to be.</h2>
+          <p class="muted">
+            Hearth combines polished flows for common senior tech problems with a natural language assistant for everything else.
+            The result feels calmer, smarter, and more believable than a generic chatbot or a rigid checklist.
+          </p>
+          <div class="pill-row">
+            <span class="pill">Upload-ready</span>
+            <span class="pill">Plain language</span>
+            <span class="pill">Helper handoff</span>
+          </div>
+        </section>
+
+        <section class="helper-card" id="helperCard"></section>
+      </aside>
+
+      <main class="device-stage">
+        <div class="table-edge"></div>
+
+        <div class="tablet">
+          <div class="camera-dot"></div>
+          <div class="screen">
+            <div class="screen-top">
+              <div>
+                <p class="time" id="timeText">9:41</p>
+                <p class="date" id="dateText">Wednesday, April 1</p>
+              </div>
+
+              <div class="toggles">
+                <button class="toggle-btn" id="largeTypeBtn" aria-pressed="false">Larger type</button>
+                <button class="toggle-btn" id="softToneBtn" aria-pressed="false">Softer wording</button>
+                <button class="toggle-btn" id="speakBtn" aria-pressed="false">Read aloud</button>
+              </div>
+            </div>
+
+            <div class="home-banner" id="homeBanner">
+              <div>
+                <p class="eyebrow">Today’s support</p>
+                <h2>What would you like help with today?</h2>
+                <p class="muted">Choose something common below, or tell Hearth what is happening in your own words.</p>
+              </div>
+            </div>
+
+            <div class="starter-strip" id="starterStrip">
+              <button class="starter-chip" data-scenario="video_call">I can’t hear my grandson</button>
+              <button class="starter-chip" data-scenario="internet">My internet stopped working</button>
+              <button class="starter-chip" data-scenario="tv">My TV is not working</button>
+              <button class="starter-chip" data-scenario="printer">My printer won’t print</button>
+              <button class="starter-chip" data-scenario="email">My email won’t open</button>
+            </div>
+
+            <div class="chat-feed" id="chatFeed"></div>
+
+            <div class="action-drawer" id="actionDrawer"></div>
+
+            <div class="composer-shell">
+              <div class="attachment-tray" id="attachmentTray"></div>
+
+              <div class="composer">
+                <label class="upload-btn" for="fileInput">Upload photo or screenshot</label>
+                <input id="fileInput" type="file" accept="image/*,.pdf" multiple />
+
+                <textarea id="messageInput" rows="1" placeholder="Tell Hearth what happened..."></textarea>
+                <button class="send-btn" id="sendBtn">Send</button>
+              </div>
+
+              <p class="composer-note">
+                In a production build, Hearth would use the OpenAI API to understand photos and screenshots directly.
+                This prototype shows the product experience and routing logic.
+              </p>
+            </div>
+          </div>
+        </div>
+      </main>
+    </div>
+  </div>
+
+  <script src="app.js?v=hybrid2"></script>
+</body>
+</html>

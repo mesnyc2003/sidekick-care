@@ -1,0 +1,1 @@
+Hearth is an AI-guided support experience for older adults. I built it from real experience helping seniors through everyday tech frustration. Using Codex, I designed a warm tablet-style product with guided support for common issues, natural language help for everything else, upload-ready context, and a live helper handoff note.
