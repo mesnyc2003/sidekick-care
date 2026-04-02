@@ -1,0 +1,19 @@
+Pitch structure
+
+1. Start with the human problem
+Older adults often struggle with everyday tech, and most support tools make that worse by feeling too technical or overwhelming.
+
+2. Explain why you built it
+I built Willow Assist from real experience helping seniors with technology and seeing how much calmer, clearer guidance could make a difference.
+
+3. Describe the product
+Willow Assist is a conversation-first support experience with real-life scenarios, simpler wording, accessibility controls, and a live helper handoff panel.
+
+4. Show the wow factor
+- real-life scenario cards
+- empathetic chat design
+- “I’m confused” button
+- helper handoff note updating live
+
+5. Close
+It makes support feel more human for older adults and more efficient for the people helping them.

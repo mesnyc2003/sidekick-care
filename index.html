@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Willow Assist — Calm tech help for older adults</title>
+  <meta name="description" content="Willow Assist is a conversation-first support experience for older adults, caregivers, and staff." />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="bg-orb orb-a"></div>
+  <div class="bg-orb orb-b"></div>
+  <div class="bg-grid"></div>
+
+  <header class="site-header">
+    <div class="brand">
+      <div class="brand-mark">✦</div>
+      <div>
+        <h1>Willow Assist</h1>
+        <p class="brand-copy">Calm tech help for older adults</p>
+      </div>
+    </div>
+    <nav class="site-nav">
+      <a href="#demo">Live demo</a>
+      <a href="#why">Why it stands out</a>
+      <a href="#story">Story</a>
+    </nav>
+    <a class="cta-link" href="#demo">Open prototype</a>
+  </header>
+
+  <main class="page-shell">
+    <section class="hero">
+      <div class="hero-copy">
+        <span class="eyebrow">Conversation-first support design</span>
+        <h2>Technology help that feels more like a patient guide than a support ticket.</h2>
+        <p class="hero-lead">
+          Willow Assist is built for older adults who feel overwhelmed by everyday tech problems.
+          Instead of dashboards, clutter, and technical wording, it offers a calm conversation, clearer next steps,
+          and a graceful handoff to family or staff when extra help is needed.
+        </p>
+
+        <div class="hero-actions">
+          <a class="primary-btn" href="#demo">Try the live chat demo</a>
+          <a class="ghost-btn" href="#why">See the product case</a>
+        </div>
+
+        <div class="impact-row">
+          <article>
+            <strong>Human-centered</strong>
+            <span>Warm, reassuring wording instead of cold troubleshooting language</span>
+          </article>
+          <article>
+            <strong>Accessibility-led</strong>
+            <span>Large type, simple phrasing, voice read-aloud, and zero clutter</span>
+          </article>
+          <article>
+            <strong>Support-ready</strong>
+            <span>Live helper summary that updates during the conversation</span>
+          </article>
+        </div>
+      </div>
+
+      <div class="hero-visual">
+        <div class="hero-card glass">
+          <div class="mini-topbar">
+            <span class="dot green"></span>
+            <span class="dot amber"></span>
+            <span class="dot red"></span>
+          </div>
+          <div class="mini-phone">
+            <div class="mini-island"></div>
+            <div class="mini-chat">
+              <div class="bubble assistant">Hi, I’m Willow. I can help with that.</div>
+              <div class="bubble assistant">We’ll take this one small step at a time.</div>
+              <div class="bubble user">I can’t hear anything on my call.</div>
+              <div class="bubble assistant">That’s okay. Let’s check your volume together.</div>
+            </div>
+          </div>
+          <div class="floating-card floating-card-a">
+            <span class="small-label">Helper handoff</span>
+            <strong>Clean support note</strong>
+            <p>Shows what the user already tried, so staff do not start from zero.</p>
+          </div>
+          <div class="floating-card floating-card-b">
+            <span class="small-label">Calm mode</span>
+            <strong>“Explain it more simply”</strong>
+            <p>Rephrases any step for users who feel stuck or confused.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="trust-strip">
+      <span>Built for senior living communities</span>
+      <span>Helpful for caregivers and front desk staff</span>
+      <span>Grounded in real support work</span>
+      <span>Demo-ready, polished, and easy to understand</span>
+    </section>
+
+    <section class="feature-grid" id="why">
+      <article class="feature-card glass">
+        <span class="feature-kicker">01</span>
+        <h3>Not another generic AI chat window</h3>
+        <p>Willow is shaped like a real care product: guided conversation, emotional reassurance, live helper context, and an interface older adults can actually follow.</p>
+      </article>
+      <article class="feature-card glass">
+        <span class="feature-kicker">02</span>
+        <h3>Real-life scenarios, not technical categories</h3>
+        <p>Users start with situations like “I can’t hear my grandson on a video call,” which feels far more human than “camera/audio troubleshooting.”</p>
+      </article>
+      <article class="feature-card glass">
+        <span class="feature-kicker">03</span>
+        <h3>Built for the moment people feel stuck</h3>
+        <p>Large actions, softer wording, and a one-tap “I’m confused” option create a safer experience for people who might otherwise give up or panic.</p>
+      </article>
+    </section>
+
+    <section class="demo-section" id="demo">
+      <div class="demo-header">
+        <div>
+          <span class="eyebrow">Interactive prototype</span>
+          <h3>See the product in motion</h3>
+          <p>Choose a scenario and walk through Willow’s conversation-first support flow.</p>
+        </div>
+        <div class="toolbar glass">
+          <button class="toolbar-btn" id="toggleLargeText">Aa Larger text</button>
+          <button class="toolbar-btn" id="toggleSimple">Simpler wording</button>
+          <button class="toolbar-btn" id="toggleVoice">Read aloud</button>
+        </div>
+      </div>
+
+      <div class="demo-layout">
+        <aside class="scenario-panel glass">
+          <div class="panel-head">
+            <span class="eyebrow small">Choose a story</span>
+            <h4>What’s happening right now?</h4>
+          </div>
+          <div class="scenario-list" id="scenarioList"></div>
+
+          <div class="mode-card">
+            <span class="small-label">Experience mode</span>
+            <div class="mode-pills">
+              <button class="mode-pill active" data-role="older-adult">Older adult</button>
+              <button class="mode-pill" data-role="helper">Helper</button>
+              <button class="mode-pill" data-role="staff">Staff</button>
+            </div>
+            <p id="modeDescription">Gentle, reassuring language with bigger choices and less pressure.</p>
+          </div>
+        </aside>
+
+        <section class="phone-stage">
+          <div class="phone-frame glass">
+            <div class="phone-notch"></div>
+            <div class="phone-top">
+              <div class="presence">
+                <div class="presence-ring"></div>
+                <div>
+                  <strong>Willow</strong>
+                  <span id="presenceText">Calm support companion</span>
+                </div>
+              </div>
+              <button id="restartBtn" class="icon-btn" aria-label="Restart conversation">↺</button>
+            </div>
+
+            <div class="chat-window" id="chatWindow"></div>
+
+            <div class="chat-actions" id="chatActions"></div>
+
+            <div class="chat-input glass-soft">
+              <span class="input-placeholder">Guided conversation — no typing needed</span>
+              <button class="input-icon" id="confusedBtn">I’m confused</button>
+            </div>
+          </div>
+        </section>
+
+        <aside class="summary-panel glass">
+          <div class="panel-head">
+            <span class="eyebrow small">Live helper view</span>
+            <h4>Support handoff preview</h4>
+          </div>
+
+          <div class="summary-stack">
+            <div class="summary-block">
+              <span class="small-label">Current situation</span>
+              <strong id="summaryScenario">Not selected yet</strong>
+              <p id="summaryAudience">Choose a scenario to start the demo.</p>
+            </div>
+
+            <div class="summary-block">
+              <span class="small-label">What has been tried</span>
+              <ul id="summarySteps" class="summary-list">
+                <li>Nothing yet</li>
+              </ul>
+            </div>
+
+            <div class="summary-block">
+              <span class="small-label">Next best action</span>
+              <p id="summaryNext">Willow will suggest one calm next step at a time.</p>
+            </div>
+
+            <div class="summary-block final-note">
+              <span class="small-label">Copy-ready note</span>
+              <pre id="summaryNote">A clean support note will appear here once the conversation starts.</pre>
+              <button class="primary-btn small-btn" id="copySummaryBtn">Copy support note</button>
+            </div>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <section class="story-grid" id="story">
+      <article class="story-card glass">
+        <span class="eyebrow small">The problem</span>
+        <h3>Older adults do not need “more tech.” They need calmer guidance.</h3>
+        <p>Many support tools assume confidence, speed, and technical language. Willow is built for the opposite moment: when someone feels unsure, embarrassed, or afraid to press the wrong thing.</p>
+      </article>
+      <article class="story-card glass">
+        <span class="eyebrow small">Why this wins</span>
+        <h3>It feels like a real product with a market, not a school prototype.</h3>
+        <p>Willow has a clear user, clear problem, differentiated interface, accessible design choices, and a demo that shows both emotional value and operational value for support teams.</p>
+      </article>
+    </section>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,5 @@
+Project title:
+Willow Assist — Calm tech help for older adults
+
+350-character description:
+Willow Assist is an AI support experience for older adults. I built it from real experience helping seniors with everyday tech issues. Using Codex, I designed a calm chat-style assistant with simpler guidance, real-life support scenarios, and a live helper handoff that makes support feel easier and more human.
