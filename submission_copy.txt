@@ -1,0 +1,11 @@
+Project Title:
+Sidekick Care – AI Tech Support for Older Adults
+
+Project Description (under 500 characters):
+Sidekick Care is an AI-powered tech support experience built for older adults, caregivers, and support teams. I built it from real experience helping seniors with everyday tech issues that often feel overwhelming. Using Codex, I created a premium accessibility-first prototype with guided troubleshooting, role-based views, and structured escalation summaries that make support calmer, clearer, and more useful.
+
+Why this works:
+- clear what it is
+- clear who it is for
+- clear why you built it
+- clear how it was built
